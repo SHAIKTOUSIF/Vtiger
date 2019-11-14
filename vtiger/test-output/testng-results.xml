@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[ Cancel button is working]]>
+    </line>
+    <line>
+      <![CDATA[CancelLeadsButtonCheckis pass]]>
+    </line>
+    <line>
+      <![CDATA[ Create Lead button is working]]>
+    </line>
+    <line>
+      <![CDATA[CreateLeadButtonCheckis pass]]>
+    </line>
+    <line>
+      <![CDATA[Lead information page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[CreateLeadWithQuickCreateusingGroupis pass]]>
+    </line>
+    <line>
+      <![CDATA[Lead information page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[CreateLeadWithQuickCreateusingUseris pass]]>
+    </line>
+    <line>
+      <![CDATA[Lead information page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[CreateLeadwithMandatoryFieldis pass]]>
+    </line>
+    <line>
+      <![CDATA[Leads is not created]]>
+    </line>
+    <line>
+      <![CDATA[CreateLeadwithoutMandatoryFieldis pass]]>
+    </line>
+    <line>
+      <![CDATA[Leads is not created because of Incorrect email]]>
+    </line>
+    <line>
+      <![CDATA[CreateLeadwithwrongEmailidis pass]]>
+    </line>
+    <line>
+      <![CDATA[Lead information page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[EditLeadis pass]]>
+    </line>
+    <line>
+      <![CDATA[Leads Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LeadButtonCheckis pass]]>
+    </line>
+    <line>
+      <![CDATA[The Lead is Deleted]]>
+    </line>
+    <line>
+      <![CDATA[deleteButtonCheckis pass]]>
+    </line>
+    <line>
+      <![CDATA[HomePage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[validLoginis pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="330444" started-at="2019-11-12T18:09:04 IST" finished-at="2019-11-12T18:14:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="330444" started-at="2019-11-12T18:09:04 IST" finished-at="2019-11-12T18:14:34 IST">
+      <class name="com.vtiger.testpom.Leads">
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="21222" started-at="2019-11-12T18:09:04 IST" finished-at="2019-11-12T18:09:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="CancelLeadsButtonCheck()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="CancelLeadsButtonCheck" duration-ms="28782" started-at="2019-11-12T18:09:25 IST" finished-at="2019-11-12T18:09:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ Cancel button is working]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CancelLeadsButtonCheck -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="2212" started-at="2019-11-12T18:09:54 IST" finished-at="2019-11-12T18:09:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CancelLeadsButtonCheck status=SUCCESS method=Leads.CancelLeadsButtonCheck()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output= Cancel button is working]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CancelLeadsButtonCheckis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="12007" started-at="2019-11-12T18:09:56 IST" finished-at="2019-11-12T18:10:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="CreateLeadButtonCheck()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="CreateLeadButtonCheck" duration-ms="16051" started-at="2019-11-12T18:10:08 IST" finished-at="2019-11-12T18:10:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ Create Lead button is working]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateLeadButtonCheck -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="1476" started-at="2019-11-12T18:10:24 IST" finished-at="2019-11-12T18:10:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateLeadButtonCheck status=SUCCESS method=Leads.CreateLeadButtonCheck()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output= Create Lead button is working]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateLeadButtonCheckis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="11917" started-at="2019-11-12T18:10:26 IST" finished-at="2019-11-12T18:10:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="CreateLeadWithQuickCreateusingGroup()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="CreateLeadWithQuickCreateusingGroup" duration-ms="18545" started-at="2019-11-12T18:10:38 IST" finished-at="2019-11-12T18:10:56 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Lead information page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateLeadWithQuickCreateusingGroup -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="1040" started-at="2019-11-12T18:10:56 IST" finished-at="2019-11-12T18:10:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateLeadWithQuickCreateusingGroup status=SUCCESS method=Leads.CreateLeadWithQuickCreateusingGroup()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output=Lead information page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateLeadWithQuickCreateusingGroupis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="11031" started-at="2019-11-12T18:10:57 IST" finished-at="2019-11-12T18:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="CreateLeadWithQuickCreateusingUser()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="CreateLeadWithQuickCreateusingUser" duration-ms="17077" started-at="2019-11-12T18:11:08 IST" finished-at="2019-11-12T18:11:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Lead information page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateLeadWithQuickCreateusingUser -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="1164" started-at="2019-11-12T18:11:25 IST" finished-at="2019-11-12T18:11:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateLeadWithQuickCreateusingUser status=SUCCESS method=Leads.CreateLeadWithQuickCreateusingUser()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output=Lead information page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateLeadWithQuickCreateusingUseris pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="11989" started-at="2019-11-12T18:11:27 IST" finished-at="2019-11-12T18:11:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="CreateLeadwithMandatoryField()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="CreateLeadwithMandatoryField" duration-ms="19780" started-at="2019-11-12T18:11:39 IST" finished-at="2019-11-12T18:11:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Lead information page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateLeadwithMandatoryField -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="1150" started-at="2019-11-12T18:11:58 IST" finished-at="2019-11-12T18:12:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateLeadwithMandatoryField status=SUCCESS method=Leads.CreateLeadwithMandatoryField()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output=Lead information page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateLeadwithMandatoryFieldis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="11149" started-at="2019-11-12T18:12:00 IST" finished-at="2019-11-12T18:12:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="CreateLeadwithoutMandatoryField()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="CreateLeadwithoutMandatoryField" duration-ms="15244" started-at="2019-11-12T18:12:11 IST" finished-at="2019-11-12T18:12:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Leads is not created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateLeadwithoutMandatoryField -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="1215" started-at="2019-11-12T18:12:26 IST" finished-at="2019-11-12T18:12:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateLeadwithoutMandatoryField status=SUCCESS method=Leads.CreateLeadwithoutMandatoryField()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output=Leads is not created]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateLeadwithoutMandatoryFieldis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="11310" started-at="2019-11-12T18:12:27 IST" finished-at="2019-11-12T18:12:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="CreateLeadwithwrongEmailid()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="CreateLeadwithwrongEmailid" duration-ms="15601" started-at="2019-11-12T18:12:38 IST" finished-at="2019-11-12T18:12:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Leads is not created because of Incorrect email]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateLeadwithwrongEmailid -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="1224" started-at="2019-11-12T18:12:54 IST" finished-at="2019-11-12T18:12:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateLeadwithwrongEmailid status=SUCCESS method=Leads.CreateLeadwithwrongEmailid()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output=Leads is not created because of Incorrect email]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CreateLeadwithwrongEmailidis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="11265" started-at="2019-11-12T18:12:55 IST" finished-at="2019-11-12T18:13:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="EditLead()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="EditLead" duration-ms="20209" started-at="2019-11-12T18:13:07 IST" finished-at="2019-11-12T18:13:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Lead information page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EditLead -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="1075" started-at="2019-11-12T18:13:27 IST" finished-at="2019-11-12T18:13:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditLead status=SUCCESS method=Leads.EditLead()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output=Lead information page is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[EditLeadis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="10821" started-at="2019-11-12T18:13:28 IST" finished-at="2019-11-12T18:13:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="LeadButtonCheck()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="LeadButtonCheck" duration-ms="10946" started-at="2019-11-12T18:13:39 IST" finished-at="2019-11-12T18:13:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Leads Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LeadButtonCheck -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="1199" started-at="2019-11-12T18:13:50 IST" finished-at="2019-11-12T18:13:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LeadButtonCheck status=SUCCESS method=Leads.LeadButtonCheck()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output=Leads Page is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LeadButtonCheckis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="10667" started-at="2019-11-12T18:13:51 IST" finished-at="2019-11-12T18:14:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="deleteButtonCheck()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="deleteButtonCheck" duration-ms="14130" started-at="2019-11-12T18:14:01 IST" finished-at="2019-11-12T18:14:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The Lead is Deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteButtonCheck -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="1261" started-at="2019-11-12T18:14:16 IST" finished-at="2019-11-12T18:14:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteButtonCheck status=SUCCESS method=Leads.deleteButtonCheck()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output=The Lead is Deleted]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[deleteButtonCheckis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="beforeM" is-config="true" duration-ms="12416" started-at="2019-11-12T18:14:17 IST" finished-at="2019-11-12T18:14:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="validLogin" duration-ms="3784" started-at="2019-11-12T18:14:29 IST" finished-at="2019-11-12T18:14:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePage is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade]" name="afterM" is-config="true" duration-ms="1241" started-at="2019-11-12T18:14:33 IST" finished-at="2019-11-12T18:14:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=Leads.validLogin()[pri:0, instance:com.vtiger.testpom.Leads@5ae63ade] output=HomePage is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[validLoginis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+      </class> <!-- com.vtiger.testpom.Leads -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
